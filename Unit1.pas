@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, sSkinManager, Unit2, Vcl.StdCtrls, System.JSON,
-  sButton, sLabel;
+  sButton, sLabel, Vcl.ExtCtrls;
 const
   uri='http://freegeoip.net/json/' ;
 type
@@ -29,6 +29,7 @@ type
     lbl16: TsLabel;
     lbl17: TsLabel;
     btn1: TsButton;
+    tmr1: TTimer;
     procedure btn1Click(Sender: TObject);
   private
     { Private declarations }
