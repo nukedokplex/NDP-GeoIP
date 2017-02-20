@@ -86,50 +86,58 @@ object Form1: TForm1
   object lbl10: TsLabel
     Left = 70
     Top = 85
-    Width = 3
+    Width = 39
     Height = 13
+    Caption = 'Country'
   end
   object lbl11: TsLabel
     Left = 70
     Top = 104
-    Width = 3
+    Width = 33
     Height = 13
+    Caption = 'Region'
   end
   object lbl12: TsLabel
     Left = 70
     Top = 123
-    Width = 3
+    Width = 19
     Height = 13
+    Caption = 'City'
   end
   object lbl13: TsLabel
     Left = 70
     Top = 142
-    Width = 3
+    Width = 16
     Height = 13
+    Caption = 'ZIP'
   end
   object lbl14: TsLabel
     Left = 70
     Top = 161
-    Width = 3
+    Width = 49
     Height = 13
+    Caption = 'Time Zone'
   end
   object lbl15: TsLabel
     Left = 70
     Top = 180
-    Width = 3
+    Width = 39
     Height = 13
+    Caption = 'Latitude'
   end
   object lbl16: TsLabel
     Left = 70
     Top = 199
-    Width = 3
+    Width = 47
     Height = 13
+    Caption = 'Longitude'
   end
   object lbl17: TsLabel
     Left = 70
     Top = 218
-    Width = 3
+    Width = 56
     Height = 13
+    Caption = 'Metro Code'
   end
   object btn1: TsButton
     Left = 371

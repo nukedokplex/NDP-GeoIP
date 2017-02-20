@@ -31,7 +31,6 @@ type
     btn1: TsButton;
     tmr1: TTimer;
     procedure btn1Click(Sender: TObject);
-    procedure tmr1Timer(Sender: TObject);
   private
     { Private declarations }
   public
@@ -78,18 +77,6 @@ IPCaller.OnHaltProc:=OnGetInfo;
 IPCaller.FreeOnTerminate:=True;
 IPCaller.Priority:=tpLower;
 IPCaller.Start;
-end;
-
-procedure TForm1.tmr1Timer(Sender: TObject);
-begin
-Sleep(1000);
-IPCaller:=caller.Create(True);
-IPCaller.url:=uri;
-IPCaller.OnHaltProc:=OnGetInfo;
-IPCaller.FreeOnTerminate:=True;
-IPCaller.Priority:=tpLower;
-IPCaller.Start;
-tmr1.Enabled:=False;
 end;
 
 end.
